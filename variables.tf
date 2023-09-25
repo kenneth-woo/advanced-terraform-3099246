@@ -5,12 +5,12 @@ variable "project-id" {
 
 variable "region" {
   type = string
-  default = "us-central1"
+  default = "us-east1"
 }
 
 variable "zone" {
   type = string
-  default = "us-central1-a"
+  default = "us-east1-a"
 }
 
 variable "subnet-name" {
